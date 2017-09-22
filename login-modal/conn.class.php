@@ -100,6 +100,32 @@
 		}
 	}
 
+	function getFieldsNum($sql){
+		$this->mysql_query_rst($sql);
+		$this->fieldsNum = @mysql_num_fields($this->result);
+	}
+
+	function getFields($sql,$fields){
+		$this->mysql_query_rst($sql);
+		if(mysql_errno() == 0){
+			if(mysql_num_rows($this->result) > 0){
+				$tmpfld = @mysql_fetch_row($this->result);
+				$this->fields = $tmpfld[$fields];
+				
+			}
+			return $this->fields;
+		}else{
+			return '';
+		}
+	}
+
+	function msg_error(){
+		if(mysql_errno() != 0) {
+			$this->msg = mysql_error();
+		}
+		return $this->msg;
+	}
+
 	// 释放内存
 	function close_rst(){
 		mysql_free_result($this->result);
