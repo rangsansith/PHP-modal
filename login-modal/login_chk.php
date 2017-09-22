@@ -23,7 +23,7 @@ if (!empty($name) and !empty($pwd)) {
 		$reback = '0';
 	}
 	else if ($count >= 3) {
-		$reback = '3'
+		$reback = '3';
 	}
 	else{
 		$sql .= "and password ='".md5($pwd)."'";

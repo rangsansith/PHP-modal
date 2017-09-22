@@ -74,13 +74,9 @@ function chklg(){
 					alert('用户名与密码输入错误，您还有1次机会');
 					$('lgpwd').select();
 				}
-				else if (msg == '3') {
-					alert('用户名与密码输入错误，您还有0次机会');
-					$('lgpwd').select();
-				}
 				else if (msg == '4') {
 					alert('用户名输入错误');
-					$('lgpwd').select();
+					$('lgname').select();
 				}
 				else if (msg == '-1') {
 					alert('登陆成功');
@@ -93,6 +89,42 @@ function chklg(){
 		}
 	};
 	xmlhttp.send(null);
+}
+
+showval();
+$('changea').onclick = showval;
+function showval(){
+	num = "";
+	for (var i = 0; i < 4; i++) {
+		tmp = Math.ceil((Math.random() * 15));
+		if (tmp > 9) {
+			switch(tmp){
+				case(10):
+				num += 'a';
+				break;
+				case(11):
+				num += 'b';
+				break;
+				case(12):
+				num += 'c';
+				break;
+				case(13):
+				num += 'd';
+				break;
+				case(14):
+				num += 'e';
+				break;
+				case(15):
+				num += 'f';
+				break;
+			}
+		}
+		else{
+			num += tmp;
+		}
+	}
+	$('chkid').src = 'valcode.php?num='+num;
+	$('chknm').value = num;
 }
 
 };
