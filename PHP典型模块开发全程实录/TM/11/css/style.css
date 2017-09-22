@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	font: 100% 宋体, 新宋体;
+	background: #ffffff;
+	margin: 0; /* 最好将 body 元素的边距和填充设置为 0 以覆盖不同的浏览器默认值 */
+	padding: 0;
+	text-align: center; /* 在 IE 5* 浏览器中，这会将容器居中。文本随后将在 #container 选择器中设置为默认左对齐 */
+	color: #000000;
+	font-size:12px;
+}
+.twoColLiqLtHdr #container { 
+	width: 785px;  /* 这将创建一个占据 80% 浏览器宽度的容器 */
+	background: #FFFFFF;
+	margin: 0 auto; /* 自动边距（与宽度一起）会将页面居中 */
+	text-align: left; /* 这将覆盖 body 元素上的“text-align: center”。 */
+} 
+.twoColLiqLtHdr #header { 
+	background: #ffffff; 
+	padding: 0 10px;  /* 此填充会将出现在它后面的 div 中的元素左对齐。如果 #header 中使用的是图像（而不是文本），您最好删除填充。 */
+} 
+
+.twoColLiqLtHdr #sidebar1 {
+	float: left; 
+	width: 18%; /* 由于此元素是浮动的，因此必须指定宽度 */
+	background: #ffffff; /* 将显示背景色，其宽度等于栏中内容的长度，*/
+	padding: 0 10px; /* 顶部和底部的填充将在该 div 中产生视觉空间 */
+}
+.twoColLiqLtHdr #mainContent { 
+	height:390px;
+	padding: 10px 0; /* 顶部和底部的填充将在该 div 中产生视觉空间 */
+} 
+.twoColLiqLtHdr #footer { 
+	padding: 0 10px; /* 此填充会将它上面 div 中的所有元素左对齐。 */
+	background:#ffffff;
+} 
+
+--> 

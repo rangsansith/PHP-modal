@@ -1,0 +1,139 @@
+/* CSS Document */
+body{
+	background-image: url(../center/images/bg.gif);
+	background-position:left top ;
+	background-repeat:repeat;
+	font-size:12px;
+	height: 100%;
+	margin:0 auto;
+	padding:0px;
+}
+a{
+	cursor: hand;
+}
+a:link {
+	text-decoration: none;
+	color:#009900;
+}
+a:visited {
+	text-decoration: none;
+	color:#009900;
+}
+a:hover {
+	text-decoration: underline;
+	color:#009900;
+
+}
+a:active {
+	text-decoration: underline;
+	color:#009900;
+}
+div{
+	/*border: 1px #000000 solid;*/
+}
+#contain{
+	position: relative;
+	margin:0 auto;
+	padding:0px;
+	background-color:#FFFFFF;
+	width: 750px;
+	height: 100%;
+	text-align: center;
+}
+#contain #header{
+	position: relative;
+	text-align: left;
+	background-image:url(../images/header.jpg);
+	background-position: center bottom;
+	background-repeat:no-repeat;
+	line-height: 20px;
+	text-indent: 52px;
+	width: 697px;
+	height: 367px;
+	color: #FFFFFF;
+}
+#contain #content{
+	position: relative;
+	height: 200px;
+	width:697px;
+}
+#contain #content #left{
+	position: relative;
+	width: 24%;
+	float:left;
+}
+#contain #content #right{
+position: relative;
+	width: 74%;
+	float: right;
+}
+#contain #content #right #left{
+	position:relative;
+	width:65%;
+	float:left;
+}
+#contain #content #right #right{
+position: relative;
+	width: 32%;
+	float:right;
+
+}
+#contain #content #left #nomblog{
+	width:98%;
+	background-image:url(../images/top1.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+	height:178px;
+	border: 1px #f0f0f0 dashed;
+	text-align: left;
+}
+#contain #content #left #nomart{
+	width:98%;
+	background-image:url(../images/top2.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+	height:178px;
+	border: 1px #f0f0f0 dashed;
+	text-align: left;
+}
+#contain #content #right #right #hotblog{
+	width:98%;
+	background-image:url(../images/top3.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+	height:178px;
+	border: 1px #f0f0f0 dashed;
+	text-align: left;
+}
+#contain #content #right #right #hotart{
+	width:98%;
+	background-image:url(../images/top4.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+	height:178px;
+	border: 1px #f0f0f0 dashed;
+	text-align: left;
+}
+#contain #content #right #left #center{
+	width:319px;
+	background-image:url(../images/center.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	height:358px;
+	border: 1px #f0f0f0 dashed;
+	text-align: left;
+}
+#contain #bottom{
+	position: relative;
+	background-image: url(../images/bottom.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+	height:155px;
+}
+.more{
+	color:#FF9900;
+	text-decoration:underline;
+	text-align:right;
+}
+
+

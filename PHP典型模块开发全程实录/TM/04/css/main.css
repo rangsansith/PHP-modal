@@ -1,0 +1,21 @@
+/* CSS Document */
+*{margin:0; padding:0; font-size:12px;}
+body{text-align:center;}
+.content{ width:1000px;}
+.header{background:#66FF99; height:80px; margin:0 auto 2px auto; border:1px solid #333333;}
+.mainbody{border:1px solid #999999; height:400px; width:998px;}
+.footer{height:30px; background: #009000; color:#FFFFFF; font-size:16px; text-align:center; width:1000px;}
+.mainleft{ width:200px; border:1px solid #CCCCCC; height:320px; margin:5px 0 5px 5px; float:left; text-align:center; overflow:auto;}
+.mainright{ width:755px; border:1px solid #CCCCCC; height:320px; margin:5px; float:left;text-align:center;}
+.mainrightcontent{ margin:10px; height:300px; width:746px; background:#FFFFFF; text-align:center; overflow:auto;}
+.navigation{ height:25px; margin:5px 2px 2px 2px; border:1px solid #CCCCCC; text-align:center; background:url(../images/bg1.gif); width:975px; line-height:25px;}
+.btn1{background: url(../images/button1.gif); width:80px;height:17px; border:none;}
+.btn2{background: url(../images/button2.gif); width:80px;height:17px; border:none;}
+.btn3{background: url(../images/button3.gif); width:52px;height:21px; border:none;}
+.btn4{background: url(../images/button4.gif); width:52px;height:21px; border:none;}
+
+a:link{color:#0066FF;}
+a:active{color:#0066FF;}
+a:visited{color:#0066FF;}
+a:hover{color:#0066FF;}
+a{ text-decoration:none;}

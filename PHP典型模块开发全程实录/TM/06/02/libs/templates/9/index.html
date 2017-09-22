@@ -1,0 +1,19 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{$title}</title>
+<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+<!--应用php标签通过include语句调用包含文件调用-->
+{php}
+include("top.php");
+{/php}
+<table width="99" border="0" cellpadding="0" cellspacing="0">
+<tr>
+     	<td height="20"><span class="STYLE1">{$arr1.object}</span></td>
+   	</tr>
+     <tr><td height="27">市场价：{$arr1.price}￥</td></tr>
+     <tr><td height="22">热卖价：{$arr1.t_price}￥</td></tr>
+</table>
+<!--通过include标签包含html文件-->
+{include file="9/bottom.html"}

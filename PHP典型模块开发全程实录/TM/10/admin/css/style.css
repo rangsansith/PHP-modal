@@ -1,0 +1,26 @@
+/* CSS Document */
+<!--
+body,td,th {
+	font-size: 12px;
+}
+body {
+	margin-left: 12px;
+	margin-top: 12px;
+}
+a:link {
+	color:#80663c;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color:#80663c;
+}
+a:hover {
+	text-decoration: none;
+	color:#80663c;
+}
+a:active {
+	text-decoration: none;
+	color:#80663c;
+}
+-->

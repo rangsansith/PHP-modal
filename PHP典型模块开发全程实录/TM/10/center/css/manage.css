@@ -1,0 +1,145 @@
+.bigclass {
+	background-image:url(../images/header13.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin: 0px;
+	padding: 0px;
+	height: 25px;
+	width: 150px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	text-indent: 25px;
+	vertical-align: middle;
+	line-height: 25px;
+	cursor: hand;
+}
+.smallclass{
+	width: 150px;
+	height: 20px;
+	line-height: 20px;
+}
+.hiddendiv {
+	FILTER: alpha(Opacity=70);
+	margin: 0px;
+	padding: 0px;
+	height: 55px;
+	width: 150px;
+}
+
+.blankdiv {
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center center;
+	margin: 0px;
+	padding: 0px;
+	height: 27px;
+	width: 150px;
+}
+body{
+	background-color:#f0f0f0;
+	font-size:12px;
+	height: 100%;
+	margin:0 auto;
+	padding:0px;
+}
+a{
+	cursor: hand;
+	color: #339966;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+
+}
+a:active {
+	text-decoration: underline;
+}
+div{
+	/*border: 1px #000000 solid;*/
+}
+#contain{
+	position: relative;
+	margin:0 auto;
+	padding:0px;
+	background-color:#FFFFFF;
+	width: 900px;
+	height: 75%;
+	text-align: center;
+}
+#contain #header{
+	position: relative;
+	text-align: right;
+	background-image: url(../images/mbg.gif);
+	background-position: center bottom;
+	background-repeat:no-repeat;
+	line-height: 36px;
+	width: 900px;
+	height: 97px;
+	top:0px;
+	left:0px;
+}
+#contain #left{
+	position: relative;
+	left: 0px;
+	top:0px;
+	float: left;
+	clear:left;
+	width: 227px;
+	height:500px;
+	background-color:#f3fde8;
+}
+#contain #right{
+	position:relative;
+	float: right;
+	clear:right;
+	width: 673px;
+	height: 500px;
+	background-color:#f9fef4;
+	background-image: url(../images/centertop.gif);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+#fir{
+	background-image:url(../images/nav.gif);
+	background-position: center;
+	background-repeat:no-repeat;
+	width:227px;
+	height:32px;
+	line-height: 32px;
+	color: #FFFFFF;
+	font-style: inherit;
+	font-size:18px;
+}
+#showmenu{
+	position: relative;
+	top: 32px;
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
