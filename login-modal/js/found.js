@@ -6,7 +6,7 @@ window.onload = function(){
 	xmlhttp = new XMLHttpRequest();
 	$('foundname').focus();
 	$('step1').onclick = function(){
-		if ($('foundname').value != "" && $('fdquestion').value != "" && $('fdanswer') != "") {
+		if ($('foundname').value != "" && $('fdquestion').value != "" && $('fdanswer').value != "") {
 			xmlhttp.open('get','found_chk.php?foundname='+$('foundname').value+'&question='+$('fdquestion').value+'&answer='+$('fdanswer').value,true);
 			xmlhttp.onreadystatechange = function(){
 				if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {

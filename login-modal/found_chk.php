@@ -11,7 +11,7 @@
 	$email = $conne->getFields($sql,0);
 	if ($email != "") {
 		$rnd = rand(1000,time());
-		$sql = "update tb_member set password =".md5($rnd)."'where name ='".$name."'and question='".$question."'and answer='".$answer."'";
+		$sql = "update tb_member set password ='".md5($rnd)."'where name ='".$name."'and question='".$question."'and answer='".$answer."'";
 		$tmpnum = $conne->uidRst($sql);
 		if ($tmpnum >= 1) {
 			$title = "找回密码";
@@ -29,8 +29,8 @@
 			$mail -> CharSet = 'utf-8';
 			$mail -> Subject = $title;
 			$mail -> MsgHTML($mailbody);
-			$mail -> AddAddress($to);
-			$result = $mail -> Send($email);
+			$mail -> AddAddress($email);
+			$result = $mail -> Send();
 			if ($result == false) {
 				$reback = '-1';
 			}

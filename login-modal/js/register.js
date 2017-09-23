@@ -8,6 +8,10 @@ window.onload = function(){
 
 	xmlhttp = new XMLHttpRequest();
 
+	$('logbtn').onclick = function(){
+		open('login.php','_parent','',false);
+	};
+
 	// 填写数据后调用
 	function chkreg(){
 		if ((cname1 == 'yes') && (cname2 == 'yes') && (cpwd1 == 'yes') && (cpwd2 == 'yes') && (cemail == 'yes')) {

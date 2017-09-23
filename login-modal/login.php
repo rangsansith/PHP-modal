@@ -22,11 +22,9 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/login.js"></script>
+    
     <div class="col-md-4 col-md-offset-4">
     <!-- 登录页面 -->
-    <form>
        <div class="form-inline">
         <label for="lgname">登录名称</label>
         <input type="text" name="lgname" id="lgname" class="form-control" placeholder="登录名称">
@@ -45,8 +43,10 @@
       <button class="btn btn-primary" type="button" id="lgbtn">登录</button>
       <button class="btn btn-primary" type="button" id="reg">用户注册</button>
       <button class="btn btn-primary" type="button" id="found">找回密码</button>
-    </form>
     <!-- /登录页面 -->
     </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
   </body>
 </html>
