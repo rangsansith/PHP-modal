@@ -29,7 +29,7 @@ if (!empty($name) and !empty($pwd)) {
 		$sql .= " and password ='".md5($pwd)."'";
 		$num = $conne->getRowsNum($sql);
 		if ($num == 0 or $num == "") {
-			$num = $conne->uidRst("update tb_member set count = ".($count+1)."where name = '".$name."'");
+			$num = $conne->uidRst("update tb_member set count = '".($count+1)."' where name = '".$name."'");
 			$reback = ($count+1);
 		}
 		else{
